@@ -5,7 +5,7 @@ const CountryCard = ({name, flagImg}) => {
     return(
         <div className={styles.wrapper}>
             <img src={flagImg} alt='No image exists' className={styles.img}/>
-            <h3>{name}</h3>
+            <h2>{name}</h2>
         </div>
     )
 }
