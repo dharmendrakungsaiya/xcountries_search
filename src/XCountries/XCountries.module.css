@@ -1,0 +1,36 @@
+.countryCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    flex-direction: column;
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.img{
+    width: 100px;
+    height: 100px;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.input{
+    width: 500px;
+    margin-top: 30px;
+}
