@@ -1,4 +1,16 @@
-.countryCard{
+.countryCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+}
+
+.wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,18 +23,7 @@
     border-radius: 4px;
 }
 
-.img{
-    width: 100px;
-    height: 100px;
-}
-
-.wrapper{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.container{
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,7 +31,7 @@
     padding: 30px;
 }
 
-.input{
+.input {
     width: 500px;
     margin-top: 30px;
 }

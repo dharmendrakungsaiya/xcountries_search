@@ -3,7 +3,7 @@ import styles from '../XCountries/XCountries.module.css';
 
 const CountryCard = ({name, flagImg}) => {
     return(
-        <div className={styles.countryCard}>
+        <div className={styles.wrapper}>
             <img src={flagImg} alt='No image exists' className={styles.img}/>
             <h3>{name}</h3>
         </div>
@@ -47,7 +47,7 @@ const Countries = () => {
      const filteredCountries = filterCountry();
 
     return(
-        <div className={styles.wrapper}>
+        <div className={styles.countryCard}>
        <input type='text' placeholder='Search for countries' value={search} onChange={handleSearch} className={styles.input}/>
         <div className={styles.container}>
                         
@@ -61,7 +61,7 @@ const Countries = () => {
                         />
                     ))
                 ) : (
-                    <p>No countries found</p>
+                    null
                 )}
         </div>
         </div>
