@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import styles from '../XCountries/XCountries.module.css';
+import '../XCountries/XCountries.css';
 
 const CountryCard = ({name, flagImg}) => {
     return(
-        <div className={styles.countryCard}>
-            <img src={flagImg} alt='No image exists' className={styles.img}/>
+        <div className='countryCard'>
+            <img src={flagImg} alt='No image exists' className='img'/>
             <h2>{name}</h2>
         </div>
     )
@@ -47,9 +47,9 @@ const Countries = () => {
      const filteredCountries = filterCountry();
 
     return(
-        <div className={styles.wrapper}>
-       <input type='text' placeholder='Search for countries' value={search} onChange={handleSearch} className={styles.input}/>
-        <div className={styles.container}>
+        <div className='wrapper'>
+       <input type='text' placeholder='Search for countries' value={search} onChange={handleSearch} className='input'/>
+        <div className='container'>
                         
 
         {filteredCountries.length > 0 ? (
