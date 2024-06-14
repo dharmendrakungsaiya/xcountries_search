@@ -2,7 +2,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px;
+    margin: 10px;
     flex-direction: column;
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 4px;
 }
 
 .img {
@@ -11,16 +17,12 @@
 }
 
 .wrapper {
+
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
-    margin: 10px;
     flex-direction: column;
-    width: 150px;
-    height: 150px;
-    border: 1px solid black;
-    border-radius: 4px;
+
 }
 
 .container {
